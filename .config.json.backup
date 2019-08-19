@@ -2,7 +2,7 @@
  "nodes": {
   "node-red": {
    "name": "node-red",
-   "version": "0.20.7",
+   "version": "0.20.7-git",
    "local": false,
    "nodes": {
     "inject": {
@@ -399,7 +399,7 @@
   },
   "node-red-node-rbe": {
    "name": "node-red-node-rbe",
-   "version": "0.2.4",
+   "version": "0.2.5",
    "local": false,
    "nodes": {
     "rbe": {
@@ -466,7 +466,37 @@
      "file": "/home/bigdoods/projects/nr-base-dev-env/node_modules/node-red-node-twitter/27-twitter.js"
     }
    }
+  },
+  "node-red-contrib-max-audio-classifier": {
+   "name": "node-red-contrib-max-audio-classifier",
+   "version": "0.1.5",
+   "local": false,
+   "nodes": {
+    "audio-classifier": {
+     "name": "audio-classifier",
+     "types": [
+      "audio-classifier",
+      "audio-classifier-service"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-max-audio-classifier",
+     "file": "/home/bigdoods/projects/nr-base-dev-env/node_modules/node-red-contrib-max-audio-classifier/node.js"
+    }
+   }
   }
  },
- "_credentialSecret": "b4776bcd9605c817fcc72b0f877ae50c86902776792f17d404b889ac4827b6d1"
+ "_credentialSecret": "b4776bcd9605c817fcc72b0f877ae50c86902776792f17d404b889ac4827b6d1",
+ "users": {
+  "_": {
+   "editor": {
+    "view": {
+     "view-grid-size": 20,
+     "view-node-status": true,
+     "view-node-show-label": true,
+     "view-show-tips": true
+    }
+   }
+  }
+ }
 }
