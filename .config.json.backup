@@ -467,24 +467,6 @@
     }
    }
   },
-  "node-red-contrib-max-audio-classifier": {
-   "name": "node-red-contrib-max-audio-classifier",
-   "version": "0.1.5",
-   "local": false,
-   "nodes": {
-    "audio-classifier": {
-     "name": "audio-classifier",
-     "types": [
-      "audio-classifier",
-      "audio-classifier-service"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "node-red-contrib-max-audio-classifier",
-     "file": "/home/bigdoods/projects/nr-base-dev-env/node_modules/node-red-contrib-max-audio-classifier/node.js"
-    }
-   }
-  },
   "node-red-node-forge": {
    "name": "node-red-node-forge",
    "version": "0.0.1",
@@ -551,11 +533,12 @@
      "view-grid-size": 20,
      "view-node-status": true,
      "view-node-show-label": true,
-     "view-show-tips": true,
+     "view-show-tips": false,
      "view-snap-grid": true,
      "view-show-grid": true
     }
-   }
+   },
+   "menu-menu-item-sidebar": false
   }
  }
 }

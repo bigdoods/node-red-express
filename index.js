@@ -15,7 +15,7 @@ function getSettings(envs){
     flowFile: 'flows.json',
     apiMaxLength: '50mb', 
     functionGlobalContext: { // enables global context
-
+      
       // Spread operator used as shorthand for including Vars from bl-config file
       ...envs.env
       
