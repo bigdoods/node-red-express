@@ -467,21 +467,60 @@
     }
    }
   },
-  "node-red-contrib-max-audio-classifier": {
-   "name": "node-red-contrib-max-audio-classifier",
-   "version": "0.1.5",
+  "node-red-node-forge": {
+   "name": "node-red-node-forge",
+   "version": "0.0.1",
    "local": false,
    "nodes": {
-    "audio-classifier": {
-     "name": "audio-classifier",
+    "forge-credentials": {
+     "name": "forge-credentials",
      "types": [
-      "audio-classifier",
-      "audio-classifier-service"
+      "forge-credentials"
      ],
      "enabled": true,
      "local": false,
-     "module": "node-red-contrib-max-audio-classifier",
-     "file": "/home/bigdoods/projects/nr-base-dev-env/node_modules/node-red-contrib-max-audio-classifier/node.js"
+     "module": "node-red-node-forge",
+     "file": "/home/bigdoods/projects/nr-base-dev-env/node_modules/node-red-node-forge/forge-credentials.js"
+    },
+    "forge-default-credentials": {
+     "name": "forge-default-credentials",
+     "types": [
+      "forge-default-credentials"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-node-forge",
+     "file": "/home/bigdoods/projects/nr-base-dev-env/node_modules/node-red-node-forge/forge-default-credentials.js"
+    },
+    "forge-oss": {
+     "name": "forge-oss",
+     "types": [
+      "forge-oss"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-node-forge",
+     "file": "/home/bigdoods/projects/nr-base-dev-env/node_modules/node-red-node-forge/forge-oss.js"
+    },
+    "forge-model-derivative": {
+     "name": "forge-model-derivative",
+     "types": [
+      "forge-model-derivative"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-node-forge",
+     "file": "/home/bigdoods/projects/nr-base-dev-env/node_modules/node-red-node-forge/forge-model-derivative.js"
+    },
+    "forge-wait-and-go": {
+     "name": "forge-wait-and-go",
+     "types": [
+      "forge-wait-and-go"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-node-forge",
+     "file": "/home/bigdoods/projects/nr-base-dev-env/node_modules/node-red-node-forge/forge-wait-and-go.js"
     }
    }
   }
