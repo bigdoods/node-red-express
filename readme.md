@@ -5,4 +5,3 @@ The environment variables used within the node-red flows is accessed in the .bl-
 
 1. Go to Forge developer account and setup Application. For the purposes of development, it is advised that a demo application is setup in the Forge environment and credentials.
 2. Enter FORGE_CLIENT_ID, FORGE_CLIENT_SECRET and FORGE_CALLBACK_URL in .bl-config.json file
-3. 
