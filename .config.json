@@ -467,60 +467,20 @@
     }
    }
   },
-  "node-red-node-forge": {
-   "name": "node-red-node-forge",
-   "version": "0.0.1",
+  "node-red-contrib-pdf": {
+   "name": "node-red-contrib-pdf",
+   "version": "0.1.0",
    "local": false,
    "nodes": {
-    "forge-credentials": {
-     "name": "forge-credentials",
+    "pdf": {
+     "name": "pdf",
      "types": [
-      "forge-credentials"
+      "HTML-PDF"
      ],
      "enabled": true,
      "local": false,
-     "module": "node-red-node-forge",
-     "file": "/home/bigdoods/projects/nr-base-dev-env/node_modules/node-red-node-forge/forge-credentials.js"
-    },
-    "forge-default-credentials": {
-     "name": "forge-default-credentials",
-     "types": [
-      "forge-default-credentials"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "node-red-node-forge",
-     "file": "/home/bigdoods/projects/nr-base-dev-env/node_modules/node-red-node-forge/forge-default-credentials.js"
-    },
-    "forge-oss": {
-     "name": "forge-oss",
-     "types": [
-      "forge-oss"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "node-red-node-forge",
-     "file": "/home/bigdoods/projects/nr-base-dev-env/node_modules/node-red-node-forge/forge-oss.js"
-    },
-    "forge-model-derivative": {
-     "name": "forge-model-derivative",
-     "types": [
-      "forge-model-derivative"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "node-red-node-forge",
-     "file": "/home/bigdoods/projects/nr-base-dev-env/node_modules/node-red-node-forge/forge-model-derivative.js"
-    },
-    "forge-wait-and-go": {
-     "name": "forge-wait-and-go",
-     "types": [
-      "forge-wait-and-go"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "node-red-node-forge",
-     "file": "/home/bigdoods/projects/nr-base-dev-env/node_modules/node-red-node-forge/forge-wait-and-go.js"
+     "module": "node-red-contrib-pdf",
+     "file": "/home/bigdoods/projects/nr-base-dev-env/node_modules/node-red-contrib-pdf/pdf.js"
     }
    }
   }
@@ -538,7 +498,8 @@
      "view-show-grid": true
     }
    },
-   "menu-menu-item-sidebar": true
+   "menu-menu-item-sidebar": true,
+   "menu-menu-item-palette": false
   }
  }
 }

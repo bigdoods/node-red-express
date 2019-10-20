@@ -1,0 +1,765 @@
+{
+    "mailthread": {
+        "ThreadId": "1879054605",
+        "MailId": "1879054605",
+        "ApprovalStatus": "Approved",
+        "Attachments": "",
+        "Attribute1": {
+            "AttributeTypeNames": "",
+            "AttributeType": "PRIMARY_ATTRIBUTE"
+        },
+        "Attribute2": {
+            "AttributeTypeNames": "",
+            "AttributeType": "SECONDARY_ATTRIBUTE"
+        },
+        "Attribute3": {
+            "AttributeTypeNames": "",
+            "AttributeType": "THIRD_ATTRIBUTE"
+        },
+        "Attribute4": {
+            "AttributeTypeNames": "",
+            "AttributeType": "FOURTH_ATTRIBUTE"
+        },
+        "MailData": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n\t<head>\n\t\t<meta HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=utf-8\" /><title>\n\t\t</title>\n\t\t<style type=\"text/css\">\n\t\t\t.cs95E872D0{text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt}\n\t\t\t.csAED4B1C7{color:#000000;background-color:transparent;font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; }\n\t\t</style>\n\t</head>\n\t<body>\n\t\t<span><p class=\"cs95E872D0\"><span class=\"csAED4B1C7\">&nbsp;</span></p></span></body>\n</html>\n",
+        "ConfidentialFlag": false,
+        "ProjectDetails": {
+            "address1": "Level 1",
+            "address2": "696 Bourke Street",
+            "address3": "",
+            "city": "Melbourne",
+            "country": "Australia",
+            "name": "API Demo",
+            "state": ""
+        },
+        "CorrespondenceType": "Request For Information",
+        "ToUsers": {
+            "Recipient": [
+                {
+                    "OrganizationId": "1879048492",
+                    "OrganizationName": "Majestic Builders",
+                    "Status": "Responded",
+                    "DistributionType": "TO",
+                    "FirstName": "Patrick",
+                    "Name": "Mr Patrick O'Leary",
+                    "UserId": "1879049107",
+                    "LastName": "O'Leary"
+                },
+                {
+                    "OrganizationId": "1879048240",
+                    "OrganizationName": "Aramist Consulting",
+                    "Status": "N/A",
+                    "DistributionType": "CC",
+                    "FirstName": "Daichi",
+                    "Name": "Mr Daichi Tomita",
+                    "UserId": "1879049364",
+                    "LastName": "Tomita"
+                }
+            ]
+        },
+        "MailNo": "MAJ-RFI-000001",
+        "Fax": "",
+        "Footer": "",
+        "FromUserDetails": {
+            "LogoPath": {
+                "href": "https://origin-apiprod.aconex.com/html/logos/aconex-stored/organization/0/2008-08-13-13-34-39-206.jpg"
+            },
+            "OrganizationId": "1879048492",
+            "OrganizationName": "Majestic Builders",
+            "FirstName": "Patrick",
+            "Name": "Mr Patrick O'Leary",
+            "UserId": "1879049107",
+            "LastName": "O'Leary"
+        },
+        "InRefToMailId": "1879054605",
+        "Notes": "",
+        "ProjectId": "1879048428",
+        "ReasonForIssue": "",
+        "MailRegistrationDetails": {
+            "IsRegistered": "true"
+        },
+        "ResponseRequired": {
+            "ResponseRequiredDate": "2012-09-27T12:58:03.750Z",
+            "ResponseRequiredMessage": "Revise and re-submit by"
+        },
+        "RichText": "true",
+        "SentDate": "2012-09-11T07:33:04.973Z",
+        "Status": "Responded",
+        "Subject": "testing in API Demo instance - outlook plugin",
+        "InRefTo": "1879054605",
+        "Replies": [
+            {
+                "MailId": "1879054635",
+                "ApprovalStatus": "Approved",
+                "Attachments": {
+                    "MailAttachment": [
+                        {
+                            "MailId": "1879054623",
+                            "FromName": " Nate Harrison",
+                            "FromOrg": "Majestic Builders",
+                            "MailNo": "MAJ-CAN-000004",
+                            "SentDate": "2012-09-12T07:47:47.707Z",
+                            "Subject": "Re: Hello Nate"
+                        },
+                        {
+                            "MailId": "1879054624",
+                            "FromName": " Nate Harrison",
+                            "FromOrg": "Majestic Builders",
+                            "MailNo": "MAJ-CAN-000005",
+                            "SentDate": "2012-09-12T07:47:48.977Z",
+                            "Subject": "Sending Mail "
+                        },
+                        {
+                            "MailId": "1879054628",
+                            "FromName": " Bhaskara Laxminarayan",
+                            "FromOrg": "Majestic Builders",
+                            "MailNo": "MAJ-RFI-000005",
+                            "SentDate": "2012-09-13T05:52:09.327Z",
+                            "Subject": "testing Mail Registration"
+                        },
+                        {
+                            "MailId": "1879054630",
+                            "FromName": " Nate Harrison",
+                            "FromOrg": "Majestic Builders",
+                            "MailNo": "MAJ-RFI-000006",
+                            "SentDate": "2012-09-13T05:54:24.903Z",
+                            "Subject": "Re: Hello Nate"
+                        },
+                        {
+                            "MailId": "1879054634",
+                            "FromName": " Bhaskara Laxminarayan",
+                            "FromOrg": "Majestic Builders",
+                            "MailNo": "MAJ-RFI-000008",
+                            "SentDate": "2012-09-13T09:21:14.813Z",
+                            "Subject": "testing mail registration in outlook plugin"
+                        }
+                    ]
+                },
+                "Attribute1": {
+                    "AttributeTypeNames": "",
+                    "AttributeType": "PRIMARY_ATTRIBUTE"
+                },
+                "Attribute2": {
+                    "AttributeTypeNames": "",
+                    "AttributeType": "SECONDARY_ATTRIBUTE"
+                },
+                "Attribute3": {
+                    "AttributeTypeNames": "",
+                    "AttributeType": "THIRD_ATTRIBUTE"
+                },
+                "Attribute4": {
+                    "AttributeTypeNames": "",
+                    "AttributeType": "FOURTH_ATTRIBUTE"
+                },
+                "MailData": "<p> <table style=\"width: 431.0pt;border-collapse: collapse;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"575\"> <colgroup> <col style=\"width: 30.0pt;\" width=\"40\" /> <col style=\"width: 71.0pt;\" width=\"95\" /> <col style=\"width: 330.0pt;\" width=\"440\" /> </colgroup><tbody> <tr style=\"height: 11.25pt;\" height=\"15\"> <td style=\"border: 0.5pt solid rgb(127,127,127);background-color: rgb(165,165,165);width: 431.0pt;height: 11.25pt;\" colspan=\"3\" height=\"15\" width=\"575\"><strong><font size=\"2\">Request For Information</font></strong></td></tr> <tr style=\"height: 11.25pt;\" height=\"15\"> <td style=\"border: 0.5pt solid rgb(127,127,127);background-color: silver;height: 11.25pt;\" colspan=\"3\" height=\"15\"><strong><font size=\"2\" color=\"#000066\">Details</font></strong></td></tr> <tr style=\"height: 45.0pt;\" height=\"60\"> <td style=\"border: 0.5pt solid rgb(127,127,127);background-color: transparent;width: 431.0pt;height: 45.0pt;\" colspan=\"3\" height=\"60\" width=\"575\"><font size=\"2\"><br /></font></td></tr> <t...",
+                "ConfidentialFlag": false,
+                "ProjectDetails": {
+                    "address1": "Level 1",
+                    "address2": "696 Bourke Street",
+                    "address3": "",
+                    "city": "Melbourne",
+                    "country": "Australia",
+                    "name": "API Demo",
+                    "state": ""
+                },
+                "CorrespondenceType": "Request For Information",
+                "ToUsers": {
+                    "Recipient": [
+                        {
+                            "OrganizationId": "1879048569",
+                            "OrganizationName": "Aconex",
+                            "Status": "Responded",
+                            "DistributionType": "TO",
+                            "FirstName": "Bhaskara",
+                            "Name": " Bhaskara Laxminarayan",
+                            "UserId": "1879049747",
+                            "LastName": "Laxminarayan"
+                        },
+                        {
+                            "OrganizationId": "1879048492",
+                            "OrganizationName": "Majestic Builders",
+                            "Status": "Responded",
+                            "DistributionType": "TO",
+                            "FirstName": "Bhaskara",
+                            "Name": " Bhaskara Laxminarayan",
+                            "UserId": "1879049757",
+                            "LastName": "Laxminarayan"
+                        },
+                        {
+                            "OrganizationId": "1879048492",
+                            "OrganizationName": "Majestic Builders",
+                            "Status": "Responded",
+                            "DistributionType": "TO",
+                            "FirstName": "Patrick",
+                            "Name": "Mr Patrick O'Leary",
+                            "UserId": "1879049107",
+                            "LastName": "O'Leary"
+                        },
+                        {
+                            "OrganizationId": "1879048240",
+                            "OrganizationName": "Aramist Consulting",
+                            "Status": "N/A",
+                            "DistributionType": "CC",
+                            "FirstName": "Daichi",
+                            "Name": "Mr Daichi Tomita",
+                            "UserId": "1879049364",
+                            "LastName": "Tomita"
+                        }
+                    ]
+                },
+                "MailNo": "pluginmail01",
+                "Fax": "61998316591",
+                "Footer": "",
+                "FromUserDetails": {
+                    "LogoPath": {
+                        "href": "https://origin-apiprod.aconex.com/html/logos/aconex-stored/organization/0/2008-08-13-13-34-39-206.jpg"
+                    },
+                    "OrganizationId": "1879048492",
+                    "OrganizationName": "Majestic Builders",
+                    "FirstName": "Patrick",
+                    "Name": "Mr Patrick O'Leary",
+                    "UserId": "1879049107",
+                    "LastName": "O'Leary"
+                },
+                "InRefToMailId": "1879054635",
+                "Notes": "",
+                "ProjectId": "1879048428",
+                "ReasonForIssue": "",
+                "MailRegistrationDetails": {
+                    "IsRegistered": "true"
+                },
+                "ResponseRequired": {
+                    "ResponseRequiredDate": "2012-09-20T14:00:00.000Z",
+                    "ResponseRequiredMessage": "Acknowledge by"
+                },
+                "RichText": "true",
+                "SentDate": "2012-09-13T09:24:12.533Z",
+                "Status": "Responded",
+                "Subject": "Re: testing in API Demo instance - outlook plugin",
+                "ThreadId": "1879054605",
+                "InRefTo": "1879054635",
+                "Replies": [
+                    {
+                        "MailId": "1879061589",
+                        "ApprovalStatus": "Don't Process",
+                        "Attachments": "",
+                        "Attribute1": {
+                            "AttributeTypeNames": "",
+                            "AttributeType": "PRIMARY_ATTRIBUTE"
+                        },
+                        "Attribute2": {
+                            "AttributeTypeNames": "",
+                            "AttributeType": "SECONDARY_ATTRIBUTE"
+                        },
+                        "Attribute3": {
+                            "AttributeTypeNames": "",
+                            "AttributeType": "THIRD_ATTRIBUTE"
+                        },
+                        "Attribute4": {
+                            "AttributeTypeNames": "",
+                            "AttributeType": "FOURTH_ATTRIBUTE"
+                        },
+                        "MailData": "<p>Hi,</p>\n\n<p> </p>\n\n<p>I feel that is is super important to test aconex Mail Services because they are super</p>\n\n<p> </p>\n\n<p>Donallllddddd Turnip</p>\n\n<table align=\"left\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-width: medium;border-style: none;width: 360.0pt;border-collapse: collapse;\" width=\"480\">\n\t<tbody>\n\t\t<tr style=\"HEIGHT: 38.5pt;\">\n\t\t\t<td style=\"border-width: medium 2.25pt medium medium;border-style: none solid none none;padding: 0.0cm 5.4pt;width: 126.0pt;height: 38.5pt;\" valign=\"top\" width=\"168\">\n\t\t\t<p style=\"\">Donallllddddd Turnip</p>\n\n\t\t\t<p style=\"\"><span style=\"FONT-FAMILY: Arial;FONT-SIZE: 10.0pt;\">Senior Project Manager</span><b><span style=\"FONT-FAMILY: Arial;FONT-SIZE: 10.0pt;\"></span></b></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-width: medium;border-style: none;padding: 0.0cm 5.4pt;width: 234.0pt;height: 38.5pt;\" width=\"312\">\n\t\t\t<p><b><span style=\"FONT-FAMILY: Arial;FONT-SIZE: 10.0pt;\">Majestic Builders </span></b></p>\n\n\t\t\t<p><span style=\"FONT-STYLE: itali...",
+                        "ConfidentialFlag": false,
+                        "ProjectDetails": {
+                            "address1": "Level 1",
+                            "address2": "696 Bourke Street",
+                            "address3": "",
+                            "city": "Melbourne",
+                            "country": "Australia",
+                            "name": "API Demo",
+                            "state": ""
+                        },
+                        "CorrespondenceType": "Budget Enquiry",
+                        "ToUsers": {
+                            "Recipient": {
+                                "OrganizationId": "1879048569",
+                                "OrganizationName": "Aconex",
+                                "Status": "N/A",
+                                "DistributionType": "TO",
+                                "FirstName": "Bhaskara",
+                                "Name": " Bhaskara Laxminarayan",
+                                "UserId": "1879049747",
+                                "LastName": "Laxminarayan"
+                            }
+                        },
+                        "MailNo": "DRAFT-000015",
+                        "Fax": "61998316591",
+                        "Footer": "",
+                        "FromUserDetails": {
+                            "LogoPath": {
+                                "href": "https://origin-apiprod.aconex.com/html/logos/aconex-stored/organization/0/2008-08-13-13-34-39-206.jpg"
+                            },
+                            "OrganizationId": "1879048492",
+                            "OrganizationName": "Majestic Builders",
+                            "FirstName": "Patrick",
+                            "Name": "Mr Patrick O'Leary",
+                            "UserId": "1879049107",
+                            "LastName": "O'Leary"
+                        },
+                        "InRefToMailId": "1879054638",
+                        "Notes": "",
+                        "ProjectId": "1879048428",
+                        "ReasonForIssue": "",
+                        "MailRegistrationDetails": {
+                            "IsRegistered": "true"
+                        },
+                        "ResponseRequired": "",
+                        "RichText": "true",
+                        "SentDate": "2019-10-15T01:51:52.307Z",
+                        "Status": "N/A",
+                        "Subject": "Ultimate Testing in API Demo",
+                        "ThreadId": "1879054605",
+                        "InRefTo": "1879054638",
+                        "ReplyType": "REPLY"
+                    },
+                    {
+                        "MailId": "1879054660",
+                        "ApprovalStatus": "Approved",
+                        "Attachments": {
+                            "LocalFileAttachment": [
+                                {
+                                    "attachmentId": "1879095706",
+                                    "FileSize": "52939",
+                                    "FileName": "No_project_message.png"
+                                },
+                                {
+                                    "attachmentId": "1879095707",
+                                    "FileSize": "23637",
+                                    "FileName": "compilation-overview.png"
+                                }
+                            ],
+                            "MailAttachment": [
+                                {
+                                    "MailId": "1879054623",
+                                    "FromName": " Nate Harrison",
+                                    "FromOrg": "Majestic Builders",
+                                    "MailNo": "MAJ-CAN-000004",
+                                    "SentDate": "2012-09-12T07:47:47.707Z",
+                                    "Subject": "Re: Hello Nate"
+                                },
+                                {
+                                    "MailId": "1879054624",
+                                    "FromName": " Nate Harrison",
+                                    "FromOrg": "Majestic Builders",
+                                    "MailNo": "MAJ-CAN-000005",
+                                    "SentDate": "2012-09-12T07:47:48.977Z",
+                                    "Subject": "Sending Mail "
+                                },
+                                {
+                                    "MailId": "1879054628",
+                                    "FromName": " Bhaskara Laxminarayan",
+                                    "FromOrg": "Majestic Builders",
+                                    "MailNo": "MAJ-RFI-000005",
+                                    "SentDate": "2012-09-13T05:52:09.327Z",
+                                    "Subject": "testing Mail Registration"
+                                },
+                                {
+                                    "MailId": "1879054630",
+                                    "FromName": " Nate Harrison",
+                                    "FromOrg": "Majestic Builders",
+                                    "MailNo": "MAJ-RFI-000006",
+                                    "SentDate": "2012-09-13T05:54:24.903Z",
+                                    "Subject": "Re: Hello Nate"
+                                },
+                                {
+                                    "MailId": "1879054634",
+                                    "FromName": " Bhaskara Laxminarayan",
+                                    "FromOrg": "Majestic Builders",
+                                    "MailNo": "MAJ-RFI-000008",
+                                    "SentDate": "2012-09-13T09:21:14.813Z",
+                                    "Subject": "testing mail registration in outlook plugin"
+                                }
+                            ]
+                        },
+                        "Attribute1": {
+                            "AttributeTypeNames": "",
+                            "AttributeType": "PRIMARY_ATTRIBUTE"
+                        },
+                        "Attribute2": {
+                            "AttributeTypeNames": "",
+                            "AttributeType": "SECONDARY_ATTRIBUTE"
+                        },
+                        "Attribute3": {
+                            "AttributeTypeNames": "",
+                            "AttributeType": "THIRD_ATTRIBUTE"
+                        },
+                        "Attribute4": {
+                            "AttributeTypeNames": "",
+                            "AttributeType": "FOURTH_ATTRIBUTE"
+                        },
+                        "MailData": "<div><br></div>\r\n<div><br><br><br></div>\r\n<div align=\"left\">\r\n    <hr>\r\n    <font size=\"1\" face=\"Tahoma\">\r\n    <b>From:</b> P O'Leary<br>\r\n    <b>Sent:</b> 13/09/2012 7:24:12 PM EST (GMT +10:00)<br>\r\n    <b>To:</b> Bhaskara Laxminarayan, Bhaskara Laxminarayan, Patrick O'Leary<br>\r\n    <b>Cc:</b> Daichi Tomita<br>\r\n    <b>Mail Number:</b> pluginmail01<br>\r\n    <b>Subject:</b> Re: testing in API Demo instance - outlook plugin\r\n    <br><br><br>\r\n    </font>\r\n</div>\r\n\r\n<p> <table style=\"width: 431pt; border-collapse: collapse;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"575\"> <colgroup> <col style=\"width: 30pt;\" width=\"40\"> <col style=\"width: 71pt;\" width=\"95\"> <col style=\"width: 330pt;\" width=\"440\"> </colgroup><tbody> <tr style=\"height: 11.25pt;\" height=\"15\"> <td style=\"border: 0.5pt solid rgb(127, 127, 127); background-color: rgb(165, 165, 165); width: 431pt; height: 11.25pt;\" colspan=\"3\" height=\"15\" width=\"575\"><strong><font size=\"2\">Request For Information</font></strong></td></...",
+                        "ConfidentialFlag": false,
+                        "ProjectDetails": {
+                            "address1": "Level 1",
+                            "address2": "696 Bourke Street",
+                            "address3": "",
+                            "city": "Melbourne",
+                            "country": "Australia",
+                            "name": "API Demo",
+                            "state": ""
+                        },
+                        "CorrespondenceType": "Certificate of Completion",
+                        "ToUsers": {
+                            "Recipient": [
+                                {
+                                    "OrganizationId": "1879048492",
+                                    "OrganizationName": "Majestic Builders",
+                                    "Status": "Overdue",
+                                    "DistributionType": "TO",
+                                    "FirstName": "Testuser",
+                                    "Name": "Mr Testuser Testuser",
+                                    "UserId": "1879049759",
+                                    "LastName": "Testuser"
+                                },
+                                {
+                                    "OrganizationId": "1879048492",
+                                    "OrganizationName": "Majestic Builders",
+                                    "Status": "Overdue",
+                                    "DistributionType": "TO",
+                                    "FirstName": "Test1",
+                                    "Name": " Test1 User",
+                                    "UserId": "1879049754",
+                                    "LastName": "User"
+                                },
+                                {
+                                    "OrganizationId": "1879048617",
+                                    "OrganizationName": "TEST US",
+                                    "Status": "Overdue",
+                                    "DistributionType": "TO",
+                                    "FirstName": "Test1",
+                                    "Name": " Test1 US",
+                                    "UserId": "1879049741",
+                                    "LastName": "US"
+                                },
+                                {
+                                    "OrganizationId": "1879048617",
+                                    "OrganizationName": "TEST US",
+                                    "Status": "Overdue",
+                                    "DistributionType": "TO",
+                                    "FirstName": "Test2",
+                                    "Name": " Test2 US",
+                                    "UserId": "1879049739",
+                                    "LastName": "US"
+                                },
+                                {
+                                    "OrganizationId": "1879048618",
+                                    "OrganizationName": "TEST USER",
+                                    "Status": "Overdue",
+                                    "DistributionType": "TO",
+                                    "FirstName": "Test1",
+                                    "Name": " Test1 User",
+                                    "UserId": "1879049751",
+                                    "LastName": "User"
+                                },
+                                {
+                                    "OrganizationId": "1879048618",
+                                    "OrganizationName": "TEST USER",
+                                    "Status": "Overdue",
+                                    "DistributionType": "TO",
+                                    "FirstName": "Test2",
+                                    "Name": " Test2 User",
+                                    "UserId": "1879049752",
+                                    "LastName": "User"
+                                }
+                            ]
+                        },
+                        "MailNo": "MAJ-COC-000001",
+                        "Fax": "61998316591",
+                        "Footer": "",
+                        "FromUserDetails": {
+                            "LogoPath": {
+                                "href": "https://origin-apiprod.aconex.com/html/logos/aconex-stored/organization/0/2008-08-13-13-34-39-206.jpg"
+                            },
+                            "OrganizationId": "1879048492",
+                            "OrganizationName": "Majestic Builders",
+                            "FirstName": "Bhaskara",
+                            "Name": " Bhaskara Laxminarayan",
+                            "UserId": "1879049757",
+                            "LastName": "Laxminarayan"
+                        },
+                        "InRefToMailId": "1879054660",
+                        "Notes": "",
+                        "ProjectId": "1879048428",
+                        "ReasonForIssue": "",
+                        "MailRegistrationDetails": {
+                            "IsRegistered": "true"
+                        },
+                        "ResponseRequired": {
+                            "ResponseRequiredDate": "2012-09-20T14:00:00.000Z",
+                            "ResponseRequiredMessage": "Acknowledge by"
+                        },
+                        "RichText": "true",
+                        "SentDate": "2012-09-17T10:38:48.587Z",
+                        "Status": "Outstanding",
+                        "Subject": "Fwd: testing in API Demo instance - outlook plugin",
+                        "ThreadId": "1879054605",
+                        "InRefTo": "1879054660",
+                        "ReplyType": "FORWARD"
+                    },
+                    {
+                        "MailId": "1879054689",
+                        "ApprovalStatus": "Approved",
+                        "Attachments": "",
+                        "Attribute1": {
+                            "AttributeTypeNames": "",
+                            "AttributeType": "PRIMARY_ATTRIBUTE"
+                        },
+                        "Attribute2": {
+                            "AttributeTypeNames": "",
+                            "AttributeType": "SECONDARY_ATTRIBUTE"
+                        },
+                        "Attribute3": {
+                            "AttributeTypeNames": "",
+                            "AttributeType": "THIRD_ATTRIBUTE"
+                        },
+                        "Attribute4": {
+                            "AttributeTypeNames": "",
+                            "AttributeType": "FOURTH_ATTRIBUTE"
+                        },
+                        "MailData": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n\t<head>\n\t\t<meta HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=utf-8\" /><title>\n\t\t</title>\n\t\t<style type=\"text/css\">\n\t\t\t.cs95E872D0{text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt}\n\t\t\t.cs5EFED22F{color:#000000;background-color:transparent;font-family:Times New Roman; font-size:12pt; font-weight:normal; font-style:normal; }\n\t\t\t.cs2D2816FE{}\n\t\t\t.csCA9039AC{width:431pt;padding:0pt 0pt 0pt 0pt;background-color:#A5A5A5;border-top:1px #7F7F7F solid;border-right:1px #7F7F7F solid;border-bottom:1px #7F7F7F solid;border-left:1px #7F7F7F solid}\n\t\t\t.cs5AE30AD6{color:#000000;background-color:#A5A5A5;font-family:Times New Roman; font-size:10pt; font-weight:bold; font-style:normal; }\n\t\t\t.cs798299E8{padding:0pt 0pt 0pt 0pt;background-color:#C0C0C0;border-top:1px #7F7F7F solid;border-right:1px #7F7F7F solid;border-bottom:1px #7F7F7F solid;border-left:1px #7F7F7...",
+                        "ConfidentialFlag": false,
+                        "ProjectDetails": {
+                            "address1": "Level 1",
+                            "address2": "696 Bourke Street",
+                            "address3": "",
+                            "city": "Melbourne",
+                            "country": "Australia",
+                            "name": "API Demo",
+                            "state": ""
+                        },
+                        "CorrespondenceType": "Builder's Advice",
+                        "ToUsers": {
+                            "Recipient": [
+                                {
+                                    "OrganizationId": "1879048569",
+                                    "OrganizationName": "Aconex",
+                                    "Status": "N/A",
+                                    "DistributionType": "TO",
+                                    "FirstName": "Belinda",
+                                    "Name": " Belinda Dal Lago",
+                                    "UserId": "1879049743",
+                                    "LastName": "Dal Lago"
+                                },
+                                {
+                                    "OrganizationId": "1879048569",
+                                    "OrganizationName": "Aconex",
+                                    "Status": "N/A",
+                                    "DistributionType": "TO",
+                                    "FirstName": "Nate",
+                                    "Name": " Nate Harrison",
+                                    "UserId": "1879049745",
+                                    "LastName": "Harrison"
+                                },
+                                {
+                                    "OrganizationId": "1879048569",
+                                    "OrganizationName": "Aconex",
+                                    "Status": "N/A",
+                                    "DistributionType": "TO",
+                                    "FirstName": "Bhaskara",
+                                    "Name": " Bhaskara Laxminarayan",
+                                    "UserId": "1879049747",
+                                    "LastName": "Laxminarayan"
+                                },
+                                {
+                                    "OrganizationId": "1879048240",
+                                    "OrganizationName": "Aramist Consulting",
+                                    "Status": "N/A",
+                                    "DistributionType": "CC",
+                                    "FirstName": "Daichi",
+                                    "Name": "Mr Daichi Tomita",
+                                    "UserId": "1879049364",
+                                    "LastName": "Tomita"
+                                }
+                            ]
+                        },
+                        "MailNo": "MAJ-BA-000004",
+                        "Fax": "",
+                        "Footer": "",
+                        "FromUserDetails": {
+                            "LogoPath": {
+                                "href": "https://origin-apiprod.aconex.com/html/logos/aconex-stored/organization/0/2008-08-13-13-34-39-206.jpg"
+                            },
+                            "OrganizationId": "1879048492",
+                            "OrganizationName": "Majestic Builders",
+                            "FirstName": "Patrick",
+                            "Name": "Mr Patrick O'Leary",
+                            "UserId": "1879049107",
+                            "LastName": "O'Leary"
+                        },
+                        "InRefToMailId": "1879054635",
+                        "Notes": "",
+                        "ProjectId": "1879048428",
+                        "ReasonForIssue": "",
+                        "MailRegistrationDetails": {
+                            "IsRegistered": "true"
+                        },
+                        "ResponseRequired": "",
+                        "RichText": "true",
+                        "SentDate": "2012-09-18T22:44:44.017Z",
+                        "Status": "N/A",
+                        "Subject": "RE: Re: testing in API Demo instance - outlook plugin",
+                        "ThreadId": "1879054605",
+                        "InRefTo": "1879054635",
+                        "ReplyType": "REPLY"
+                    }
+                ],
+                "ReplyType": "REPLY"
+            },
+            {
+                "MailId": "1879054666",
+                "ApprovalStatus": "Approved",
+                "Attachments": "",
+                "Attribute1": {
+                    "AttributeTypeNames": {
+                        "AttributeTypeName": [
+                            {},
+                            {}
+                        ]
+                    },
+                    "AttributeType": "PRIMARY_ATTRIBUTE"
+                },
+                "Attribute2": {
+                    "AttributeTypeNames": "",
+                    "AttributeType": "SECONDARY_ATTRIBUTE"
+                },
+                "Attribute3": {
+                    "AttributeTypeNames": "",
+                    "AttributeType": "THIRD_ATTRIBUTE"
+                },
+                "Attribute4": {
+                    "AttributeTypeNames": "",
+                    "AttributeType": "FOURTH_ATTRIBUTE"
+                },
+                "MailData": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n\t<head>\n\t\t<meta HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=utf-8\" /><title>\n\t\t</title>\n\t\t<style type=\"text/css\">\n\t\t\t.cs95E872D0{text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt}\n\t\t\t.cs5EFED22F{color:#000000;background-color:transparent;font-family:Times New Roman; font-size:12pt; font-weight:normal; font-style:normal; }\n\t\t\t.csAED4B1C7{color:#000000;background-color:transparent;font-family:Verdana; font-size:10pt; font-weight:normal; font-style:normal; }\n\t\t</style>\n\t</head>\n\t<body>\n\t\t<span><p class=\"cs95E872D0\"><span class=\"cs5EFED22F\">REPLYING TO RFI <br></span></p><p class=\"cs95E872D0\"><span class=\"cs5EFED22F\">-------Original Message-------</span></p><p class=\"cs95E872D0\"><span class=\"csAED4B1C7\">&nbsp;</span></p></span></body>\n</html>\n",
+                "ConfidentialFlag": false,
+                "ProjectDetails": {
+                    "address1": "Level 1",
+                    "address2": "696 Bourke Street",
+                    "address3": "",
+                    "city": "Melbourne",
+                    "country": "Australia",
+                    "name": "API Demo",
+                    "state": ""
+                },
+                "CorrespondenceType": "Builder's Advice",
+                "ToUsers": {
+                    "Recipient": {
+                        "OrganizationId": "1879048492",
+                        "OrganizationName": "Majestic Builders",
+                        "Status": "N/A",
+                        "DistributionType": "TO",
+                        "FirstName": "Patrick",
+                        "Name": "Mr Patrick O'Leary",
+                        "UserId": "1879049107",
+                        "LastName": "O'Leary"
+                    }
+                },
+                "MailNo": "MAJ-BA-000002",
+                "Fax": "",
+                "Footer": "",
+                "FromUserDetails": {
+                    "LogoPath": {
+                        "href": "https://origin-apiprod.aconex.com/html/logos/aconex-stored/organization/0/2008-08-13-13-34-39-206.jpg"
+                    },
+                    "OrganizationId": "1879048492",
+                    "OrganizationName": "Majestic Builders",
+                    "FirstName": "Patrick",
+                    "Name": "Mr Patrick O'Leary",
+                    "UserId": "1879049107",
+                    "LastName": "O'Leary"
+                },
+                "InRefToMailId": "1879054605",
+                "Notes": "",
+                "ProjectId": "1879048428",
+                "ReasonForIssue": "",
+                "MailRegistrationDetails": {
+                    "IsRegistered": "true"
+                },
+                "ResponseRequired": "",
+                "RichText": "true",
+                "SentDate": "2012-09-18T01:10:11.650Z",
+                "Status": "N/A",
+                "Subject": "RE: testing in API Demo instance - outlook plugin",
+                "ThreadId": "1879054605",
+                "InRefTo": "1879054605",
+                "ReplyType": "REPLY"
+            },
+            {
+                "MailId": "1879061583",
+                "ApprovalStatus": "Approved",
+                "Attachments": "",
+                "Attribute1": {
+                    "AttributeTypeNames": {
+                        "AttributeTypeName": "Side"
+                    },
+                    "AttributeType": "PRIMARY_ATTRIBUTE"
+                },
+                "Attribute2": {
+                    "AttributeTypeNames": "",
+                    "AttributeType": "SECONDARY_ATTRIBUTE"
+                },
+                "Attribute3": {
+                    "AttributeTypeNames": "",
+                    "AttributeType": "THIRD_ATTRIBUTE"
+                },
+                "Attribute4": {
+                    "AttributeTypeNames": "",
+                    "AttributeType": "FOURTH_ATTRIBUTE"
+                },
+                "MailData": "<p> </p>\n\n<table align=\"left\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"BORDER-BOTTOM: medium none;BORDER-LEFT: medium none;WIDTH: 360.0pt;BORDER-COLLAPSE: collapse;BORDER-TOP: medium none;BORDER-RIGHT: medium none;\" width=\"480\">\n\t<tbody>\n\t\t<tr style=\"HEIGHT: 38.5pt;\">\n\t\t\t<td style=\"BORDER-BOTTOM: medium none;BORDER-LEFT: medium none;PADDING-BOTTOM: 0.0cm;PADDING-LEFT: 5.4pt;WIDTH: 126.0pt;PADDING-RIGHT: 5.4pt;HEIGHT: 38.5pt;BORDER-TOP: medium none;BORDER-RIGHT: 2.25pt solid;PADDING-TOP: 0.0cm;\" valign=\"top\" width=\"168\">\n\t\t\t<p style=\"\"><b><span style=\"FONT-FAMILY: Arial;FONT-SIZE: 10.0pt;\">Patrick O'Leary</span></b><b><span style=\"FONT-FAMILY: Arial;FONT-SIZE: 10.0pt;\"> </span></b></p>\n\n\t\t\t<p style=\"\"><span style=\"FONT-FAMILY: Arial;FONT-SIZE: 10.0pt;\">Senior Project Manager</span><b><span style=\"FONT-FAMILY: Arial;FONT-SIZE: 10.0pt;\"></span></b></p>\n\t\t\t</td>\n\t\t\t<td style=\"BORDER-BOTTOM: medium none;BORDER-LEFT: medium none;PADDING-BOTTOM: 0.0cm;PADDING-LEFT: 5.4pt;WIDTH: 234.0...",
+                "ConfidentialFlag": false,
+                "ProjectDetails": {
+                    "address1": "Level 1",
+                    "address2": "696 Bourke Street",
+                    "address3": "",
+                    "city": "Melbourne",
+                    "country": "Australia",
+                    "name": "API Demo",
+                    "state": ""
+                },
+                "CorrespondenceType": "Purchaser Change Details",
+                "ToUsers": {
+                    "Recipient": {
+                        "OrganizationId": "1879048492",
+                        "OrganizationName": "Majestic Builders",
+                        "Status": "N/A",
+                        "DistributionType": "TO",
+                        "FirstName": "Patrick",
+                        "Name": "Mr Patrick O'Leary",
+                        "UserId": "1879049107",
+                        "LastName": "O'Leary"
+                    }
+                },
+                "MailNo": "ACO-PCD-000001",
+                "Fax": "61998316591",
+                "Footer": "",
+                "FromUserDetails": {
+                    "OrganizationId": "1879048569",
+                    "OrganizationName": "Aconex",
+                    "FirstName": "Belinda",
+                    "Name": " Belinda Dal Lago",
+                    "UserId": "1879049743",
+                    "LastName": "Dal Lago"
+                },
+                "InRefToMailId": "1879054605",
+                "Notes": "",
+                "ProjectId": "1879048428",
+                "ReasonForIssue": "",
+                "MailRegistrationDetails": {
+                    "IsRegistered": "true",
+                    "RegisteredByUserFullName": "Mr Patrick O'Leary",
+                    "RegisteredByUserId": "1879049107"
+                },
+                "ResponseRequired": "",
+                "RichText": "true",
+                "SentDate": "2019-08-14T10:25:42.290Z",
+                "Status": "N/A",
+                "Subject": "Re: testing in API Demo instance",
+                "ThreadId": "1879054605",
+                "InRefTo": "1879054605",
+                "ReplyType": "REPLY"
+            }
+        ],
+        "ReplyType": "NEVER_RESPONDED"
+    }
+}

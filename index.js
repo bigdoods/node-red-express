@@ -1,6 +1,7 @@
 const http = require('http')
 const express = require('express')
 const RED = require('node-red')
+const email2pdf = require('./bimlauncher-email2pdf')
 
 const testEnvs = require('./.bl-config.json')
 
@@ -16,6 +17,8 @@ function getSettings(envs){
     apiMaxLength: '50mb', 
     functionGlobalContext: { // enables global context
       
+      email2pdf: email2pdf,
+
       // Spread operator used as shorthand for including Vars from bl-config file
       ...envs.env
       

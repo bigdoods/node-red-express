@@ -1,0 +1,354 @@
+<html>
+<head>
+<style type="text/css">
+    iframe {
+        width: 100%;
+        page-break-inside: auto !important;
+    }
+    .footer {
+        line-height: 10px;
+        font-size: 8px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    html {
+        font-size: 5pt;
+        margin: 0;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    body {
+        margin: 0 10rem;
+
+    }
+
+    #index_section {
+    }
+
+
+#out {
+    position: relative;
+    margin-top: 33px;
+}
+
+    table {
+        border-collapse: collapse;
+        color: #aaa;
+        border: 1px solid #2e2f31;
+        width: 100%;
+    }
+
+    td,th {
+        font-size: 1rem;
+        padding: 0.75rem 0.5rem;
+    }
+    tr {
+        border-top: 1px solid #2e2f31;
+        border-bottom: 1px solid #2e2f31;
+    }
+
+    th {
+        background-color: #1e1f21;
+        font-weight: normal;
+    }
+    .card {
+        background-color: #181a1b;
+        color: #aaa;
+        padding: 1rem;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+
+#index_section .card {
+    overflow: hidden;
+    
+}
+
+    .metadata_header {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    .metadata_header > div {
+        width: 33%;
+        float: left;
+        position: relative;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #2e2f31;
+    }
+
+    .meta_attr {
+        color: #999;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .section_header {
+        background-color: #1e1f21;
+        width: calc(100% + 0.5rem);
+        left: -1rem;
+        position: relative;
+        clear: both;
+        color: #999;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        padding: 0.75rem 0.75rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .subject {
+        font-size: 1.15rem;
+        line-height: 1.15rem;
+        border-bottom: 2px solid #2e2f31;
+        padding: 0.5rem 0;
+        position: relative;
+    }
+
+    .send_info {
+        margin-top: 1rem;
+    }
+    .send_info > div {
+        width: 100%;
+        clear: both;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        overflow: hidden;
+    }
+
+    .send_info > div > .label {
+        width: 10rem;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+    .send_info > div > div {
+        float: left;
+    }
+</style>
+
+</head>
+<body>
+
+<!--<div id="page" style="width: 2px; background-color: black; height: 22.06cm"></div>-->
+<div id="page" style="width: 2px; background-color: black; height: 28.5cm"></div>
+
+<div id="index_section" style="position: relative">
+<h1>{{ messages.length }} Messages</h1>
+{{ #messages }}
+    <div style="width: calc(20px * {{ depth }}); height: calc(30px + 2rem); position: absolute;">
+        {{ #repeatForDepth }}
+        <div style="display: inline-block; height: calc(60px + 2rem); z-index: -1; width: 0px; margin: 0 9px; background-color: #aaa; border-left: 1px solid black; top: calc(-45px - 1rem); position: relative;"></div>
+        {{ /repeatForDepth }}
+    </div>
+
+    <div class="card" style="height: 30px; overflow: visible; position: relative; margin-left: calc(20px * {{ depth }})">
+    {{ #depth }}
+        <div style="position: absolute; height:0; width: 11px; border-bottom: 1px solid black; top: calc(15px + 1rem); left: calc(-1rem - 3px);"></div>
+    {{ /depth }}
+
+        <table style="height:30px">
+        <tr>
+        <td nowrap>
+            <div >{{ FirstName }} {{ LastName }}</div>
+            <div >{{ OrganizationName }}</div>
+        </td>
+        <td nowrap>
+            <div>{{ Subject }}</div>
+            <div>{{ CorrespondenceType }}</div>
+        </td>
+        <td nowrap>
+            <div>{{ SentDate }}</div>
+            <div>{{ MailNo }}</div>
+        </td>
+        <td>
+            {{ Status }}
+        </td>
+        <td>
+            Page <span id="card_pagenum_{{ index }}"></span>
+        </td>
+        </tr>
+        </table>
+    </div>
+{{ /messages }}
+
+</div>
+
+<div id="messages">
+{{ #messages }}
+<div id="card_{{ index }}" class="card">
+    <div class="metadata_header">
+        <div>
+            <div class="meta_attr">
+                Mail Type
+            </div>
+            <div>
+                {{ CorrespondenceType }}
+            </div>
+        </div>
+        <div>
+            <div class="meta_attr">
+                Mail Number
+            </div>
+            <div>
+                {{ MailNo }}
+            </div>
+        </div>
+        <div>
+            <div class="meta_attr">
+                Reference Number
+            </div>
+            <div>
+                {{ MailNo }}
+            </div>
+        </div>
+    </div>
+
+
+    <div class="subject">
+        {{ Subject }}
+    </div>
+    <div class="send_info">
+        <div>
+            <div class="label">
+                From
+            </div>
+            <div class="value">
+                {{ FirstName }} {{ LastName }} - {{ OrganizationName }}
+            </div>
+        </div>
+{{ #Recipient }}
+        <div>
+            <div class="label">
+                {{ DistributionType }}
+            </div>
+            <div class="value">
+                {{ FirstName }} {{ LastName }} - {{ OrganizationName }}
+            </div>
+        </div>
+{{ /Recipient }}
+        <div>
+            <div class="label">
+                Sent
+            </div>
+            <div class="value">
+                {{ SentDate }}
+            </div>
+        </div>
+        <div>
+            <div class="label">
+                Status
+            </div>
+            <div class="value">
+                {{ Status }}
+            </div>
+        </div>
+    </div>
+
+{{ #MailAttachment.length }}
+    <div class="section_header">Mail Attachments:</div>
+    <table>
+        <tr>
+            <th>Mail Number</th>
+            <th>Subject</th>
+            <th>From</th>
+            <th>Sent</th>
+        </tr>
+{{ /MailAttachment.length }}
+{{ #MailAttachment }}
+        <tr>
+            <td>{{ MailNo }}</td>
+            <td>{{ Subject }}</td>
+            <td>{{ FromName }} - {{ FromOrg }}</td>
+            <td>{{ SentDate }}</td>
+        </tr>
+{{ /MailAttachment }}
+{{ #MailAttachment.length }}
+    </table>
+{{ /MailAttachment.length }}
+{{ #LocalFileAttachment.length }}
+    <div class="section_header">File Attachments</div>
+    <table>
+            <tr>
+                <th>File Name</th>
+            </tr>
+
+{{ /LocalFileAttachment.length }}
+{{ #LocalFileAttachment }}
+            <tr>
+                <td>{{ FileName }}</td>
+            </tr>
+{{ /LocalFileAttachment }}
+{{ #LocalFileAttachment.length }}
+    </table>
+{{ /LocalFileAttachment.length }}
+    <div class="section_header">Message</div>
+    <iframe id="iframe_{{ index }}" srcdoc="{{ SanitizedData }}" >afaffdfaff</iframe>
+    <div id="content_{{ index }}">
+    afaffdfaff
+    </div>
+</div>
+{{ /messages }}
+</div>
+
+<div id="pageFooter" class="footer">Page {{=<% %>=}} {{page}} of {{pages}} <%={{ }}=%></div>
+<div id="pageHeader" class="header"></div>
+<script type="text/javascript">
+function onLoad() {
+    var pageElement = document.getElementById("page");
+    var pageHeight = pageElement.clientHeight - 20 - 20;
+    pageElement.remove();
+    var messagesHeight = document.getElementById("messages").clientHeight;
+
+    var indexSection = document.getElementById("index_section");
+    var extraMargin = (pageHeight - (indexSection.clientHeight % pageHeight))
+    indexSection.style.marginBottom =   extraMargin + "px";
+    var offset = indexSection.clientHeight + extraMargin;
+    for(var i = 0; i < {{ messages.length }}; i++) {
+        var cardHeight = document.getElementById("card_" + i).offsetHeight;
+        var page = Math.floor(offset / pageHeight) + 1;
+        document.getElementById("card_pagenum_" + i).innerText = page;
+
+        offset += (cardHeight + 30 + 30)
+    }
+
+
+}
+
+
+function restyleFrames() {
+    var ifr;
+{{ #messages }}
+        ifr = document.getElementById("iframe_{{ index }}");
+        ifr.contentWindow.document.documentElement.style.color = "#fff";
+        ifr.contentWindow.document.documentElement.style.fontSize = "6pt";
+{{ /messages }}
+        setTimeout(resizeFrames, 20);
+}
+
+function resizeFrames() {
+    var ifr;
+{{ #messages }}
+        ifr = document.getElementById("iframe_{{ index }}");
+        ifr.style.height = ifr.contentWindow.document.documentElement.offsetHeight + "px";
+        ifr.contentWindow.document.documentElement.style.color = "#fff";
+        ifr.contentWindow.document.documentElement.style.fontSize = "6pt";
+{{ /messages }}
+        setTimeout(onLoad, 20);
+}
+
+function copyFrames() {
+    var ifr;
+{{ #messages }}
+        ifr = document.getElementById("iframe_{{ index }}");
+        document.getElementById("content_{{ index }}").innerHTML = ifr.contentWindow.document.documentElement.innerHTML
+        ifr.remove()
+{{ /messages }}
+        setTimeout(onLoad, 20);
+}
+
+
+window.addEventListener("load", setTimeout(copyFrames, 20));
+
+
+</script>
+</body>

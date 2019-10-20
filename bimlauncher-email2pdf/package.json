@@ -1,0 +1,13 @@
+{
+  "name": "bimlauncher-email2pdf",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "html-pdf": "^2.2.0",
+    "mustache": "^3.1.0",
+    "sanitize-html": "^1.20.1"
+  }
+}

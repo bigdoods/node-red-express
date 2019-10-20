@@ -5,6 +5,7 @@
     "private": true,
     "dependencies": {
         "express": "^4.17.1",
-        "node-red": "^0.20.7"
+        "node-red": "^0.20.7",
+        "node-red-contrib-pdf": "^0.1.0"
     }
 }
