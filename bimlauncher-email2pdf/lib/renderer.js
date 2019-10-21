@@ -15,7 +15,7 @@ async function mailToHtml(mail) {
                     const view = Object.assign({}, m);
                     view.HasMailAttachment = !!mail.MailAttachment;
                     view.index = index;
-                    view.SentDate = dateFormat(new Date(m.SentDate), "mm/dd/yyyy")
+                    view.SentDate = dateFormat(m.SentDate, "mm/dd/yyyy")
                     view.SanitizedData = sanitizeHtml(m.MailData, { allowedAttributes: { '*' : [ 'style' ]}});
 
                     return view;

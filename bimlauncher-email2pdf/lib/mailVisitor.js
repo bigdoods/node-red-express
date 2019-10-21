@@ -4,12 +4,13 @@
  * @param {Function} visit The "visitor" function, to be invoked once with every Mail object as an argument
  */
 function visitMails(node, visit, depth = 0) {
-    const { Mail, Replies } = node;
-    visit(Mail, depth);
+    const { Replies } = node;
+    visit(node, depth);
 
     if(Replies) {
         Replies.forEach(reply => {
-            visitMails(reply, visit, depth + 1);
+            if(reply != null)
+                visitMails(reply, visit, depth + 1);
         });
     }
 }
