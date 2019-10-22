@@ -6,6 +6,8 @@
     "dependencies": {
         "express": "^4.17.1",
         "node-red": "^0.20.7",
-        "node-red-contrib-pdf": "^0.1.0"
+        "node-red-contrib-pdf": "^0.1.0",
+        "sanitize-html": "^1.20.1",
+        "dateformat": "^3.0.3"
     }
 }

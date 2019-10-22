@@ -4,6 +4,11 @@
   "main": "lib/index.js",
   "license": "UNLICENSED",
   "private": true,
+  "node-red": {
+    "nodes": {
+      "email2pdf": "email2pdf.js"
+    }
+  },
   "dependencies": {
     "dateformat": "^3.0.3",
     "html-pdf": "^2.2.0",

@@ -1,5 +1,6 @@
 const { visitMails } = require("./mailVisitor");
-const { mailToPdf } = require("./renderer");
+const { mailToPdf, mailToModel } = require("./renderer");
+const htmlPdf = require("./html-pdf-compat/lib/index.js")
 
 function getAllMailIds(thread) {
     const mailIds = [];
@@ -29,7 +30,14 @@ async function renderThreadToPDF(thread, outputPath) {
     return await mailToPdf(getAllMails(thread), outputPath);
 }
 
+function getThreadModel(thread) {
+    return mailToModel(getAllMails(thread));
+}
+
 module.exports = {
     getAllMailIds,
-    renderThreadToPDF
+    renderThreadToPDF,
+    mailToPdf,
+    getThreadModel,
+    htmlPdf
 }
