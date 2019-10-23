@@ -5,6 +5,19 @@
         width: 100%;
         page-break-inside: auto !important;
     }
+    .confidential {
+        width: calc(100% + 2rem);
+        position: relative;
+        left: -1rem;
+        top: -1rem;
+        background-color: #f99;
+        color: #000;
+        text-align: center;
+        vertical-align: middle;
+        height: 15px;
+        line-height: 15px;
+    }
+
     .footer {
         line-height: 10px;
         font-size: 8px;
@@ -191,6 +204,9 @@
 <div id="messages">
 {{ #messages }}
 <div id="card_{{ index }}" class="card">
+{{ #ConfidentialFlag }}
+    <div class="confidential">CONFIDENTIAL</div>
+{{ /ConfidentialFlag }}
     <div class="metadata_header">
         <div>
             <div class="meta_attr">
