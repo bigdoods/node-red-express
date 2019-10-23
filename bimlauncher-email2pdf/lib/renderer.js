@@ -11,12 +11,18 @@ function mailToModel(mail) {
             view.index = index;
             view.SentDate = dateFormat(m.SentDate, "mm/dd/yyyy")
             view.SanitizedData = sanitizeHtml(m.MailData, { allowedAttributes: { '*' : [ 'style' ]}});
+            const attachments = m.Attachments || {};
+            view.AttachmentCount = Object.keys(attachments).reduce((acc, x) => acc.concat(attachments[x]), []).length;
+
+            const recipients = m.ToUsers.Recipient;
+            view.Recipients = (!(recipients instanceof Array) ? [recipients] : recipients);
 
             return view;
             })
 
     return { 
         messages,
+                base: 'file://' + __dirname,
             repeatForDepth: () => (text, render) => {
                 const currentDepth = parseInt(render("{{ depth }}"));
                 return Array(currentDepth).fill(0).map(() => render(text)).join("");
