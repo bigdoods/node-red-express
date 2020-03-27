@@ -2,24 +2,23 @@ const http = require('http')
 const express = require('express')
 const RED = require('node-red')
 
-const testEnvs = require('./.bl-config.json')
-
 const app = express()
 const server = http.createServer(app)
 
-function getSettings(envs){
-  return {
-    httpAdminRoot: '/',
-    httpNodeRoot: '/', // /api
-    userDir: './',
-    flowFile: 'flows.json',
-    apiMaxLength: '50mb', 
-    functionGlobalContext: { // enables global context
+const moment = require("moment")
 
-      // Spread operator used as shorthand for including Vars from bl-config file
-      ...envs.env
-      
-    }
+const settings = {
+  httpAdminRoot: '/',
+  httpNodeRoot: '/', // /api
+  userDir: './',
+  flowFile: 'flows.json',
+  apiMaxLength: '50mb', 
+  functionGlobalContext: { // enables global context      
+
+    "testValue": "exampleString",
+
+    "testPackage": moment
+
   }
 }
 
@@ -37,7 +36,5 @@ function startNR(settings) {
 
   RED.start()
 }
-
-const settings = getSettings(testEnvs)
 
 startNR(settings)
