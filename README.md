@@ -34,3 +34,8 @@ ___
 #### Licence
 
 MIT
+
+___
+#### Similar Node-red reference start projects
+* https://github.com/dceejay/node-red-project-starter
+* https://github.com/natcl/node-red-project-template
