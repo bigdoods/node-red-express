@@ -1,11 +1,14 @@
 {
-    "name": "node-red-project",
-    "description": "A Node-RED Project",
+    "name": "node-red-express",
+    "description": "A simple node-red & express server",
     "version": "0.0.1",
-    "private": true,
+    "private": false,
     "dependencies": {
         "express": "^4.17.1",
         "moment": "^2.24.0",
         "node-red": "^0.20.8"
+    },
+    "scripts": {
+        "start": "node index.js"
     }
 }
