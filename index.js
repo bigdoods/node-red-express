@@ -1,4 +1,6 @@
 const http = require('http')
+const path = require('path')
+
 const express = require('express')
 const RED = require('node-red')
 
@@ -12,7 +14,16 @@ const settings = {
   httpNodeRoot: '/', // /api
   userDir: './',
   flowFile: 'flows.json',
-  apiMaxLength: '50mb', 
+  apiMaxLength: '50mb',
+  editorTheme: {
+    page: {
+      css: path.join(__dirname, "/ui-styles/midnight.css"),
+      scripts: path.join(__dirname, "/ui-styles/theme-tomorrow.js")
+    },
+    palette: {
+        editable: false
+    }
+  },
   functionGlobalContext: { // enables global context      
 
     "testValue": "exampleString",
